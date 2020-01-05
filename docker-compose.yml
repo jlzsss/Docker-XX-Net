@@ -6,10 +6,10 @@ services:
         container_name: xxnet
         working_dir: /data
         ports:
-            - "8085:8085"
-            - "8086:8086"
-            - "8087:8087"
-            - "1080:1080"
+            - "8985:8985"
+            - "8986:8986"
+            - "8987:8987"
+            - "1980:1980"
         sysctls:
             - net.ipv6.conf.all.disable_ipv6=0
         volumes:
